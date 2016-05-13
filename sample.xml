@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+	<string name="key1">value1</string>
+	<string name="key2"> value2</string>
+	<string name="key3">" value3 "</string>
+	<string name="key4">value4 \"value4_sub\"</string>
+</resources>
