@@ -26,14 +26,13 @@ end
 
 
 File.open(output, "w") { |file|
-	file.print("\n")
 	dictionary.each { |key, value|
 		stored_value = value.strip
 		if stored_value.start_with?("\"") && stored_value.end_with?("\"")
 			stored_value = stored_value.slice(1..-1)
 			stored_value = stored_value.chop
 		end
-		file.printf("\"%s\" = \"%s\";\n\n", key, stored_value)
+		file.printf("\"%s\" = \"%s\";\n", key, stored_value)
 	}
 }
 
