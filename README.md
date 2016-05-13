@@ -4,13 +4,13 @@ Scripts to convert .xml and .strings file for translated text each other.
 
 ## Usage
 
-### .strings -> .xml
+### strings2xml
 
 ```
 ruby strings2xml.rb [converted_file_path]
 ```
 
-### .xml -> .strings
+### xml2strings
 
 ```
 ruby xml2strings.rb [converted_file_path]
@@ -18,7 +18,7 @@ ruby xml2strings.rb [converted_file_path]
 
 ## Example
 
-### .strings -> .xml
+### strings2xml
 
 #### converted strings file
 
@@ -45,7 +45,7 @@ ruby xml2strings.rb [converted_file_path]
 </resources>
 ```
 
-### .xml -> .strings
+### xml2strings
 
 #### converted xml file
 
